@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here]([https://your-solution-url.com](https://github.com/Yaciine19/Frontend-challenge/tree/master/bento-grid-main))
-- Live Site URL: [Click here]([https://your-live-site-url.com](https://bento-grid-challenge-xi.vercel.app/))
+- Solution URL: [Click here](https://github.com/Yaciine19/Frontend-challenge/tree/master/bento-grid-main)
+- Live Site URL: [Click here](https://bento-grid-challenge-xi.vercel.app/)
 
 ## My process
 
