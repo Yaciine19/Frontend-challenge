@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Bento grid</title>
+</head>
+  <body class="flex justify-center leading tracking-tighter">
+    <div class=" w-[90%] grid gap-7 my-10 md:grid-cols-8 md:grid-rows-[repeat(6,200px)] md:gap-3 lg:grid-cols-12 lg:grid-rows-[repeat(7,100px)]">
+
+      <div class="flex flex-col gap-1 items-center px-5 py-10 rounded-xl bg-[hsl(256,67%,59%)] md:col-start-1 md:col-span-4 row-span-2 md:justify-center lg:col-start-4 lg:col-span-6 lg:row-span-3 lg:row-start-1">
+        <h1 class="text-5xl text-center font-[500] text-white mb-5 lg:text-6xl/14 lg:w-[500px]">Social Media <span class="text-[hsl(39,100%,71%)]">10x</span> <i>Faster</i> with AI</h1>
+        <img src="assets/images/illustration-five-stars.webp" alt="# " width="170px" class="object-cover">
+        <p class="text-white lg:text-xl">Over 4,000 5-star reviews</p>
+      </div>
+
+      <div class="flex flex-col gap-1 items-center p-5 rounded-xl bg-white md:col-span-4 lg:col-start-4 lg:row-start-4 lg:row-span-2 lg:col-span-3 lg:gap-5">
+        <img src="assets/images/illustration-multiple-platforms.webp" alt="# " width="300px" class="object-cover">
+        <h1 class="text-2xl font-[500] tracking-tighter">Manage multiple accounts and platforms.</h1>
+      </div>
+
+      <div class="flex flex-col gap-1 pt-4 pl-4 rounded-xl bg-[hsl(39,100%,71%)] overflow-hidden h-[28vh] md:h-auto md:col-span-4 lg:col-start-7 lg:row-start-4 lg:row-span-2 lg:col-span-3">
+        <h1 class="text-3xl/7 font-[500] tracking-tighter mb-5">Maintain a consistent posting schedule.</h1>
+        <img src="assets/images/illustration-consistent-schedule.webp" alt="#" width="170px" class="object-cover" >
+      </div>
+
+      <div class="flex flex-col gap-4 items-center px-3 py-6 rounded-xl bg-[hsl(254,88%,90%)] md:col-span-4 md:row-span-2 md:justify-center lg:col-start-10 lg:row-start-1 lg:row-span-5 lg:col-span-3 lg:items-start">
+        <h1 class="text-2xl font-[500] lg:text-4xl/8 lg:w-[200px] ">Schedule to social media</h1>
+        <img src="assets/images/illustration-schedule-posts.webp" alt="#" width="300px" class="object-cover md:w-[250px] lg:w-full ">
+        <p class="text-center text-lg/6 lg:text-start ">Optimize post timing to publish content at the perfect time for your audience.</p>
+      </div>
+
+      <div class="flex flex-col gap-4 items-center px-3 py-6 rounded-xl bg-[hsl(256,67%,59%)] md:col-span-4 md:row-span-2 md:justify-center md:gap-5 lg:col-start-7 lg:row-start-6 lg:row-span-2 lg:col-span-6 lg:flex-row">
+        <img src="assets/images/illustration-grow-followers.webp" alt="#" width="200px" class="object-cover">
+        <h1 class="text-white w-2/3 text-center font-[500] text-3xl/6">Grow followers with non-stop content.</h1>
+      </div>
+
+      <div class="flex flex-col gap-2 px-3 py-6 rounded-xl bg-white md:col-span-4 md:col-start-5 md:row-start-3 lg:col-start-4 lg:row-start-6 lg:row-span-2 lg:col-span-3">
+        <h1 class="text-5xl font-[600]">>56%</h1>
+        <p class="mb-3">faster audience growth</p>
+        <img src="assets/images/illustration-audience-growth.webp" alt="#" width="170px" class="object-cover">
+      </div>
+
+      <div class="flex flex-col gap-4 p-6 rounded-xl bg-[hsl(31,66%,93%)] md:col-span-4 md:col-start-5 md:row-start-4 lg:col-start-1 lg:col-span-3 lg:row-span-4 lg:row-start-1 lg:justify-center lg:gap-6">
+        <h1 class="text-3xl/7 font-[500] lg:text-4xl/8">Create and schedule content <span class="text-[hsl(256,67%,59%)]"><i>quicker.</i></span></h1>
+        <img src="assets/images/illustration-create-post.webp" alt="#" width="170px" class="object-cover lg:self-center">
+      </div>
+
+      <div class="flex flex-col gap-4 p-4 rounded-xl bg-[hsl(39,100%,71%)] md:col-start-5 md:col-span-4 md:row-span-2 md:justify-center lg:row-start-5 lg:col-start-1 lg:row-span-3 lg:col-span-3">
+        <h1 class="text-3xl/7 font-[500]">Write your content using AI.</h1>
+        <img src="assets/images/illustration-ai-content.webp" alt="#" width="200px" class="object-cover">
+      </div>
+
+    </div>
+  </body>
+</html>
