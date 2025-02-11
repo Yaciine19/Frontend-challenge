@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://github.com/Yaciine19/Frontend-challenge/tree/master/recipe-page-main)
+- Live Site URL: [Click here](https://recipe-page-two-woad.vercel.app/)
 
 ## My process
 
