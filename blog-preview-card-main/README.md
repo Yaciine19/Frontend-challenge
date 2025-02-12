@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://github.com/Yaciine19/Frontend-challenge/tree/master/blog-preview-card-main)
+- Live Site URL: [Click here](https://blog-preview-card-challenge-ashy.vercel.app/)
 
 ## My process
 
