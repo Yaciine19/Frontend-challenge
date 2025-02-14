@@ -34,7 +34,7 @@ export default function App() {
       <div className="faqs bg-white rounded-xl shadow-[0_0_20px_hsl(292,42%,14%,20%)] px-5 py-8 w-[90%] sm:w-[80%] md:w-[75%] lg:w-[40%]">
         <header className="title flex gap-5 items-center mb-6">
           <img src="/images/icon-star.svg" alt="star" className="w-6" />
-          <h1 className="text-3xl font-[700]">FAQs</h1>
+          <h1 className="text-3xl font-[700] sm:text-4xl md:text-5xl">FAQs</h1>
         </header>
 
         {ShowAccordion}
