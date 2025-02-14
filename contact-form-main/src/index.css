@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: "Karla", serif;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(148, 38%, 91%);
+  min-height: 100vh;
+}
+
+
+.custom-radio-label input:checked~div {
+  border-color: hsl(169, 82%, 27%);
+}
+
+.custom-radio-label input:checked~div::before {
+  opacity: 1;
+}
+
+.custom-radio-label:has(input:checked) {
+  background-color: hsl(148, 38%, 91%);
+}
+
