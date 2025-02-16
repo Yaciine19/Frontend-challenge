@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/Yaciine19/Frontend-challenge/tree/master/interactive-rating-component-main)
+- Live Site URL: [Click Here](https://interactive-rating-challenge-three.vercel.app/)
 
 ## My process
 
