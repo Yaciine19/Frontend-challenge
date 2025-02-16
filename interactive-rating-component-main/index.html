@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- ==================== Font ==================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- ==================== Tailwind ==================== -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  <title>Interactive rating component</title>
+
+  <style>
+    ul li.active {
+      background-color: #fff;
+      color: hsl(213,19%,18%);
+    }
+  </style>
+  
+</head>
+<body class="flex items-center justify-center h-screen bg-[hsl(216,12%,8%)] font-[Overpass]">
+
+  <div class="container w-[90%] border rounded-2xl p-6 bg-[hsl(213,19%,18%)] sm:w-[400px]">
+
+     <!-- Rating state start -->
+    <div class="rating-state">
+      <div class="mb-6 w-12 h-12 rounded-full bg-[hsl(0,0%,100%)]/5 grid place-items-center">
+        <img src="images/icon-star.svg" alt="star">
+      </div>
+      <h1 class="text-white text-2xl font-bold mb-4">How did we do?</h1>
+      <p class="text-[hsl(217,12%,63%)] text-[15px] mb-4">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+        <ul class="flex justify-between text-white/75 text-[15px] mb-6 *:w-12 *:h-12 *:rounded-full *:bg-[hsl(0,0%,100%)]/5 *:grid *:place-items-center *:hover:bg-[hsl(25,97%,53%)] *:cursor-pointer *:transition-colors *:duration-200 *:active:bg-white">
+          <li data-value="1">1</li>
+          <li data-value="2">2</li>
+          <li data-value="3">3</li>
+          <li data-value="4">4</li>
+          <li data-value="5">5</li>
+        </ul>
+        <button class="submit-btn w-full py-3 bg-[hsl(25,97%,53%)] rounded-full text-white text-[15px] hover:text-[hsl(213,19%,18%)] uppercase tracking-widest hover:bg-white cursor-pointer transition-colors duration-200">
+          Submit
+        </button>
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="thank-you-state flex flex-col items-center hidden">
+      <img src="images/illustration-thank-you.svg" alt="Thank You" class="w-40 mb-6 mt-5">
+      <p class="py-2 px-4 bg-[hsl(217,12%,63%)]/7 rounded-full mb-7 text-[hsl(25,97%,53%)] text-[15px]">You selected <span></span> out of 5</p>
+      <h1 class="text-white text-3xl font-[700] mb-4">Thank You!</h1>
+      <p class="text-[hsl(217,12%,63%)] text-[15px] text-center mb-5">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>
+    <!-- Thank you state end -->
+   </div>
+  
+   <script src="main.js"></script>
+</body>
+</html>
