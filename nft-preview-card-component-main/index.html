@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- ========================= Tailwind ========================= -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  <!-- ========================= Font ========================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>NFT preview card component</title>
+
+  
+</head>
+<body class="font-[Outfit] bg-[hsl(217,54%,11%)] h-screen flex items-center justify-center">
+  <div class="bg-[hsl(216,50%,16%)] p-6 rounded-2xl w-[90%] sm:w-[350px] sm:h-[600px] shadow-[0_30px_0_15px_hsla(215,70.40%,5.30%,10%),0_20px_0_35px_hsla(215,70.40%,5.30%,8%)]">
+    <div class="mb-6 relative cursor-pointer group">
+      <img src="images/image-equilibrium.jpg" alt="Equilibrium" class="rounded-lg h-full w-full object-cover max-h-[400px]">
+      <div class="group-hover:bg-[hsl(178,100%,50%)]/50 rounded-lg absolute inset-0 transition-colors duration-200"></div>
+      <img src="images/icon-view.svg" alt="view" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-opacity opacity-0 group-hover:opacity-100 duration-200">
+    </div>
+    <h1 class="text-2xl text-white font-[600] hover:text-[hsl(178,100%,50%)] transition-colors duration-200 cursor-pointer w-fit">Equilibrium #3429</h1>
+    <p class="text-[hsl(215,51%,70%)]/75 text-[18px] font-[300] my-3">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="images/icon-ethereum.svg" alt="ethereum">
+        <span class="text-[hsl(178,100%,50%)]">0.041 ETH</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="images/icon-clock.svg" alt="clock">
+        <span class="text-[hsl(215,51%,70%)] font-[300]">3 days left</span>
+      </div>
+    </div>
+    <hr class="my-6 text-[hsl(215,32%,27%)]">
+    <div class="flex items-center gap-4">
+      <img src="images/image-avatar.png" alt="avatar" class="border rounded-full text-white w-10">
+      <p class="text-[hsl(215,51%,70%)]/75">Creation of <span class="text-white hover:text-[hsl(178,100%,50%)] transition-colors duration-200 cursor-pointer">Jules Wyvern</span></p>
+    </div>
+  </div>
+</body>
+</html>
