@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- ====================== Tailwind ====================== -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  <!-- ====================== Font ====================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  
+  <title>Order summary card</title>
+
+</head>
+<body class="flex items-center justify-center h-screen bg-[hsl(225,100%,94%)] font-[Red_Hat_Display] relative">
+  <img src="images/pattern-background-mobile.svg" alt="pattern-background-mobile" class="sm:hidden absolute inset-0 -z-99 w-full">
+  <img src="images/pattern-background-desktop.svg" alt="pattern-background-desktop" class="hidden sm:block absolute inset-0 -z-99 w-full">
+  <div class="w-[90%] rounded-3xl bg-white sm:w-[450px] shadow-[0_20px_30px_-10px_hsl(245,75%,52%,18%)]">
+    <img src="images/illustration-hero.svg" alt="hero" class="w-full object-cover rounded-t-3xl">
+    <div class="px-5 py-6 flex flex-col items-center sm:px-11">
+      <h1 class="text-2xl my-4 font-[900] text-[hsl(223,47%,23%)]">Order Summary</h1>
+    <p class="text-center text-[hsl(224,23%,55%)] font-[500] p-3">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+      <div class="flex items-center justify-between w-full my-6 p-4 rounded-xl bg-[hsl(225,100%,98%)]">
+        <div class="flex gap-4">
+          <img src="images/icon-music.svg" alt="music">
+          <p class="font-[900] text-[hsl(223,47%,23%)]">Annual Plan <br><span class="text-[hsl(224,23%,55%)] font-[700]">$59.99/year</span></p>
+        </div>
+        <a href="#" class="underline text-[hsl(245,75%,52%)] font-[900] hover:text-[hsl(245,90.80%,61.80%)] hover:no-underline transition-colors duration-200">Change</a>
+      </div>
+
+      <button class="border w-full rounded-xl py-4 font-[900] border-none bg-[hsl(245,75%,52%)] text-white mb-6 cursor-pointer shadow-[0_15px_20px_hsla(245,75%,52%,25%)] hover:bg-[hsl(245,90.80%,61.80%)] transition-colors duration-200">Proceed to Payment</button>
+      <button class="cursor-pointer font-[900] text-[hsl(224,23%,55%)] mb-2 hover:text-[hsl(223,47%,23%)] transition-colors duration-200">Cancel Order</button>
+    </div>
+  </div>
+</body>
+</html>
