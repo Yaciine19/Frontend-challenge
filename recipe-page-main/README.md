@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Yaciine19/Frontend-challenge/tree/master/recipe-page-main)
+- Solution URL: [Click here](https://github.com/yacineragueb/Frontend-challenge/tree/master/recipe-page-main)
 - Live Site URL: [Click here](https://recipe-page-two-woad.vercel.app/)
 
 ## My process
@@ -45,5 +45,5 @@ I want to improve my Tailwind skills further to create more modern projects.
 ## Author
 
 - Website - [Yacine Ragueb](https://yacineragueb.vercel.app/)
-- Frontend Mentor - [@Yaciine19](https://www.frontendmentor.io/profile/Yaciine19)
-- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacine-ragueb-8033a9302/)
+- Frontend Mentor - [@yacineragueb](https://www.frontendmentor.io/profile/yacineragueb)
+- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacineragueb/)
