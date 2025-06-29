@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://github.com/Yaciine19/Frontend-challenge/tree/master/product-preview-card-component-main)
+- Solution URL: [Click Here](https://github.com/yacineragueb/Frontend-challenge/tree/master/product-preview-card-component-main)
 - Live Site URL: [Click Here](https://product-card-component-challenge.vercel.app/)
 
 ## My process
@@ -44,5 +44,5 @@ Users should be able to:
 ## Author
 
 - Website - [Yacine Ragueb](https://yacineragueb.vercel.app/)
-- Frontend Mentor - [@Yaciine19](https://www.frontendmentor.io/profile/Yaciine19)
-- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacine-ragueb-8033a9302/)
+- Frontend Mentor - [@yacineragueb](https://www.frontendmentor.io/profile/yacineragueb)
+- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacineragueb/)
