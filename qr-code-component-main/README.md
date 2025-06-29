@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Yaciine19/Frontend-challenge/tree/master/qr-code-component-main)
+- Solution URL: [Click here](https://github.com/yacineragueb/Frontend-challenge/tree/master/qr-code-component-main)
 - Live Site URL: [Click here](https://qr-code-challenge-six-cyan.vercel.app/)
 
 ## My process
@@ -46,5 +46,5 @@ Expanding my expertise in Tailwind CSS to create more efficient and responsive d
 ## Author
 
 - Website - [Yacine Ragueb](https://yacineragueb.vercel.app/)
-- Frontend Mentor - [@Yaciine19](https://www.frontendmentor.io/profile/Yaciine19)
-- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacine-ragueb-8033a9302/)
+- Frontend Mentor - [@yacineragueb](https://www.frontendmentor.io/profile/yacineragueb)
+- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacineragueb/)
