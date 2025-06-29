@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Yaciine19/Frontend-challenge/tree/master/bento-grid-main)
+- Solution URL: [Click here](https://github.com/yacineragueb/Frontend-challenge/tree/master/bento-grid-main)
 - Live Site URL: [Click here](https://bento-grid-challenge-xi.vercel.app/)
 
 ## My process
@@ -53,6 +53,6 @@ I strive to apply this knowledge to future challenges and enhance my upcoming pr
 ## Author
 
 - Website - [Yacine Ragueb](https://yacineragueb.vercel.app/)
-- Frontend Mentor - [@Yaciine19](https://www.frontendmentor.io/profile/Yaciine19)
-- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacine-ragueb-8033a9302/)
+- Frontend Mentor - [@yacineragueb](https://www.frontendmentor.io/profile/yacineragueb)
+- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacineragueb/)
 
